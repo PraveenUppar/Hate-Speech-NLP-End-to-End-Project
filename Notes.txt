@@ -1,0 +1,38 @@
+NLP End to End Project 
+
+Problem Statement --> Hate speech classification
+
+NLP Pipeline : 
+    1. Data Gathering
+    2. Text Preparation
+    3. Feature Selection
+    4. Modeling
+    5. Evaluation
+    6. Deployment
+    7. Monitoring
+
+Step 1 : Create a template file and add the files needed for the pipeline
+         Template file contains all the file structure of the project
+
+Step 2 : Requirements file --> add all the requirements for the project
+
+Step 3 : Logger file --> Track all the changes made in the project
+
+Step 4 : Exception file --> Custom exception for errors
+
+Step 5 : AWS create a bucket --> Upload the data files --> 
+         IN THIS PROJECT GCP IS USED
+
+Step 6 : Create a constant file and add all the constants that will be used in the project 
+
+Step 7 : Constant file --> Entity --> Config file --> Artifact file --> Data Ingestion --> Training pipeline --> app.py
+
+Step 8 : Constant file --> Entity --> Config file --> Artifact file --> Data Transformation --> Training pipeline --> app.py
+
+Step 9 : Constant file --> Entity --> Config file --> Artifact file --> Model Trainer --> Training pipeline --> app.py
+
+Step 10 : Constant file --> Entity --> Config file --> Artifact file --> Model Evaluation --> Training pipeline --> app.py
+
+Step 11 : Constant file --> Entity --> Config file --> Artifact file --> Model Pusher --> Training pipeline --> app.py
+
+REFER IMAGES FROM THE FLOWCHART FOR PROJECT STRUCTURE AND WORKFLOW
